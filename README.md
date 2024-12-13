@@ -9,12 +9,14 @@ Este es un plugin sencillo para WordPress que permite gestionar de manera fácil
 3. Fácil de integrar: Perfecto para proyectos donde se requieren cambios frecuentes en las imágenes (como banners, promociones, etc.) sin intervención técnica.
 
 ## Instalación
+
 Instala el plugin subiendo el .zip del plugin desde el panel de administracion de wordpress -> plugins -> Añadir nuevo plugin
 
 ## Configuración
+
 Una vez activado, aparecerá una opción en el menú de administración de WordPress para añadir las URLs de las imágenes del banner.
 
 El endpoint estará disponible en la siguiente ruta:
 
-https://tusitio.com/wp-json/banner-api/v1/banner/
+https://tusitio.com/wp-json/banner-api/v1/banners/
 Este endpoint devolverá un JSON con las URL de las imágenes configuradas.
